@@ -24,6 +24,10 @@ h1 {
     box-shadow: none;
 }
 
+a {
+    font-size: large;
+}
+
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
