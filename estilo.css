@@ -1,0 +1,119 @@
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.article {
+    padding: 10px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    margin: 50px;
+    box-shadow: 2px 2px 2px 2px blue;
+}
+
+.article:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;   
+
+}
+
+.article:not(:hover) {
+    transform: scale(1);
+    transition: transform 0.5s ease-in-out;
+    box-shadow: none;
+}
+
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    .article {
+        padding: 8px;
+        border: 4px solid #ccc;
+        border-radius: 5px;
+        margin: 50px;
+        box-shadow: 1.5px 1.5px 1.5px 1.5px blue;
+    }
+    
+    .article:hover{
+        transform: scale(1.05);
+        transition: transform 0.5s ease-in-out;   
+    
+    }
+    
+    .article:not(:hover) {
+        transform: scale(1);
+        transition: transform 0.5s ease-in-out;
+        box-shadow: none;
+    }
+    
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    .article {
+        padding: 10px;
+        border: 3px solid #ccc;
+        border-radius: 5px;
+        margin: 50px;
+        box-shadow: 1.5px 1.5px 1.5px 1.5px blue;
+    }
+    
+    .article:hover{
+        transform: scale(1.05);
+        transition: transform 0.5s ease-in-out;   
+    
+    }
+    
+    .article:not(:hover) {
+        transform: scale(1);
+        transition: transform 0.5s ease-in-out;
+        box-shadow: none;
+    }
+}
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    .article {
+        padding: 10px;
+        border: 3px solid #ccc;
+        border-radius: 5px;
+        margin: 50px;
+        box-shadow: 1.25px 1.25px 1.25px 1.25px blue;
+    }
+    
+    .article:hover{
+        transform: scale(1.05);
+        transition: transform 0.5s ease-in-out;   
+    
+    }
+    
+    .article:not(:hover) {
+        transform: scale(1);
+        transition: transform 0.5s ease-in-out;
+        box-shadow: none;
+    }
+}
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+    .article {
+        padding: 10px;
+        border: 3px solid #ccc;
+        border-radius: 5px;
+        margin: 50px;
+        box-shadow: 1.2px 1.2px 1.2px 1.2px blue;
+    }
+    
+    .article:hover{
+        transform: scale(1.05);
+        transition: transform 0.5s ease-in-out;   
+    
+    }
+    
+    .article:not(:hover) {
+        transform: scale(1);
+        transition: transform 0.5s ease-in-out;
+        box-shadow: none;
+    }
+}
